@@ -1,0 +1,49 @@
+# Ignore Android Studio specific files
+.idea/
+*.iml
+
+# Ignore build directories
+/build/
+app/build/
+
+# Ignore local configuration file (sdk path, etc)
+local.properties
+
+# Ignore log files
+*.log
+
+# Ignore Gradle files
+.gradle/
+/build/
+
+# Ignore generated files
+*.class
+*.dex
+*.apk
+*.aar
+*.jar
+*.war
+*.ear
+
+# Ignore Mac OS specific files
+.DS_Store
+
+# Ignore miscellaneous files
+*.swp
+*.swo
+*~
+
+# Ignore binary files
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.o
+*.a
+
+# Ignore the output of Android lint
+lint/intermediates/
+
+# Ignore Kotlin build files
+build/
